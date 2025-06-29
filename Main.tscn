@@ -13,4 +13,4 @@ script = ExtResource("2_uu6xs")
 [node name="LilDude" parent="." instance=ExtResource("3_r0du0")]
 position = Vector2(161, 141)
 animation = &"dle3"
-frame_progress = 0.998318
+frame_progress = 0.369276
