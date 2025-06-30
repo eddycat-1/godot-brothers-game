@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://h7tmqsmtjs7t"]
+[gd_scene load_steps=5 format=3 uid="uid://h7tmqsmtjs7t"]
 
 [ext_resource type="PackedScene" uid="uid://bbjp7tt4hg7ew" path="res://player/Player.tscn" id="1_glv2v"]
 [ext_resource type="Script" uid="uid://bbwd6wwth3dkw" path="res://player/Player.gd" id="2_uu6xs"]
 [ext_resource type="PackedScene" uid="uid://cj8sg8n2o8gbs" path="res://player/LilDude.aseprite" id="3_r0du0"]
+[ext_resource type="Texture2D" uid="uid://d0vxbfv33ilv2" path="res://player/Angy cat.aseprite" id="4_cm0pq"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -14,3 +15,8 @@ script = ExtResource("2_uu6xs")
 position = Vector2(161, 141)
 animation = &"dle3"
 frame_progress = 0.369276
+
+[node name="AngyCat" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(289, 188)
+texture = ExtResource("4_cm0pq")
